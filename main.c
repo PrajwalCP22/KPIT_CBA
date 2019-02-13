@@ -31,7 +31,7 @@ int main()
 
 int main()
 {
-    int a[100];
+    int a[100];//INPUT ARRAY
     int *a1,*a2;
     a1=a;
     a2=a+1;
