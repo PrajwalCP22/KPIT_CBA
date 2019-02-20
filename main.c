@@ -54,5 +54,6 @@ int main()
         ++a1;
         ++a2;
     }
+    retuen 0;
 }
 
