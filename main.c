@@ -32,6 +32,7 @@ int main()
 int main()
 {
     int a[100];
+    int i=0;
     int *a1,*a2;
     a1=a;
     a2=a+1;
@@ -41,7 +42,7 @@ int main()
         printf("%d",a[i]);
     }
     printf("\n");
-    for(int i=0;i<99;++i)
+    for(i=0;i<99;++i)
     {
         if((*a1==0)&(*a2==0))
             printf("Count:%d || Sample:%d%d || LEVEL-0\n",i,a[i],a[i+1]);
